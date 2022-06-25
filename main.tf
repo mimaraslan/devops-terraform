@@ -6,6 +6,7 @@ provider "aws" {
 
 variable "subnet_prefix" {
   description = "cidr block for the subnet"
+  #  default     =  "10.0.66.0/24"
 }
 
 resource "aws_vpc" "prod-vpc" {
